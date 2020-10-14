@@ -1,0 +1,13 @@
+# Run to set aws access and secret key
+aws configure
+
+
+# Initialize terraform configure
+terraform init
+
+# Plan the terraform deployment
+terraform plan -out vpc.tfplan
+
+# Apply the deployment
+terraform apply "vpc.tfplan"
+ 
