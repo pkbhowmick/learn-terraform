@@ -1,3 +1,5 @@
 .terraform
 terraform.tfstate
 vpc.tfplan
+state.tfplan
+terraform.tfstate.backup
